@@ -8,7 +8,7 @@ module.exports = {
 
   // basic site info (required)
   name: 'Anton Spiridonov',
-  domain: 'personalpage-git-main-shadowasg.vercel.app',
+  domain: 'anspiridonov.ru',
   author: 'Anton Spiridonov',
 
   // open graph metadata (optional)
