@@ -1,7 +1,7 @@
 /**
  * This file contains site-specifc style overrides for Notion elements from
  * react-notion-x.
- * 
+ *
  * react-notion-x's goal is to match styling as close as possible to Notion,
  * whereas our goal with this site is to adjust Notion's styling in a few key
  * places to add some flare.
@@ -40,7 +40,7 @@
 }
 
 .notion-gallery-grid {
-  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
   grid-gap: 6vmin;
   gap: 6vmin;
 }
@@ -50,7 +50,7 @@
 }
 
 .notion-gallery-grid .notion-page-title-text {
-  font-size: 2em;
+  font-size: 1em;
   white-space: unset;
 }
 
@@ -64,12 +64,12 @@
 }
 
 .notion-collection-card {
-  border-radius: 16px;
+  border-radius: 5px;
   box-shadow: none;
 }
 
 .notion-collection-card-cover img {
-  border-radius: 16px;
+  border-radius: 5px;
 }
 
 .notion-collection-card {
@@ -77,9 +77,8 @@
 }
 
 .notion-collection-card-cover {
-  border-radius: 16px;
+  border-radius: 5px;
   overflow: visible;
-  box-shadow: 2px 2px 8px 4px rgba(15, 15, 15, 0.1);
 }
 
 .notion-collection-card-cover {
