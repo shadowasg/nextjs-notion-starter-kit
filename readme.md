@@ -1,35 +1,3 @@
-
-
-# Next.js Notion Starter Kit
-
-> The perfect starter kit for building websites with Next.js and Notion.
-
-[![Build Status](https://travis-ci.com/transitive-bullshit/nextjs-notion-starter-kit.svg?branch=main)](https://travis-ci.com/transitive-bullshit/nextjs-notion-starter-kit) [![Prettier Code Formatting](https://img.shields.io/badge/code_style-prettier-brightgreen.svg)](https://prettier.io)
-
-## Intro
-
-This repo is what I use to power my personal blog / portfolio site [transitivebullsh.it](https://transitivebullsh.it).
-
-It uses Notion as a CMS, fetching content from Notion and then uses [Next.js](https://nextjs.org/) and [react-notion-x](https://github.com/NotionX/react-notion-x) to render everything.
-
-The site is then deployed to [Vercel](http://vercel.com).
-
-## Features
-
-- Setup only takes a few minutes ([single config file](./site.config.js)) 💪
-- Robust support for Notion content via [react-notion-x](https://github.com/NotionX/react-notion-x)
-- Next.js / TS / React / Notion
-- Excellent page speeds
-- Sexy LQIP image previews
-- Embedded GitHub comments
-- Automatic open graph images
-- Automatic pretty URLs
-- Automatic table of contents
-- Full support for dark mode
-- Quick search via CMD+P just like in Notion
-- Responsive for desktop / tablet / mobile
-- Optimized for Next.js and Vercel
-
 ## Setup
 
 **All config is defined in [site.config.js](./site.config.js).**
